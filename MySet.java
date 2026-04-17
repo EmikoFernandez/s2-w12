@@ -16,7 +16,10 @@ public class MySet{
     }
 
     public boolean contains(int x){
-   
+        if(x == 0){
+            return false;
+        }
+        if()
     }
 
     public boolean containsHelper(int value, int index){
